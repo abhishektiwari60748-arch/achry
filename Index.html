@@ -1,1 +1,175 @@
+```html
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>आचार्य अभिषेक तिवारी | आध्यात्मिक मार्गदर्शक</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { saffron: '#f97316', maroon: '#7c2d12', lightbg: '#fff8f0' },
+                    fontFamily: { sans: ['Poppins', 'sans-serif'], hindi: ['Mukta', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-pattern {
+            background-color: #f97316;
+            background-image: url("https://www.transparenttextures.com/patterns/mandala.png");
+        }
+    </style>
+</head>
+<body class="bg-lightbg text-gray-800 font-sans flex flex-col min-h-screen">
 
+    <!-- HEADER -->
+    <header class="hero-pattern py-12 text-center text-white shadow-lg relative">
+        <div class="relative z-10 px-4">
+            <div class="relative inline-block mb-6">
+                <div class="absolute inset-0 bg-white rounded-full scale-105 opacity-20 blur-sm"></div>
+                <!-- GitHub पर फोटो का नाम photo.jpg.jpg ही रखिएगा -->
+                <img src="photo.jpg.jpg" alt="आचार्य अभिषेक तिवारी" class="w-40 h-40 md:w-56 md:h-56 mx-auto rounded-full border-4 border-white shadow-2xl object-cover relative z-10 bg-maroon">
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl font-bold font-hindi drop-shadow-lg">आचार्य अभिषेक तिवारी</h1>
+            <p class="text-lg md:text-xl mt-4 font-medium flex items-center justify-center gap-2 flex-wrap">
+                <span class="bg-maroon/30 px-4 py-1 rounded-full text-sm uppercase tracking-widest">Spiritual Guide</span>
+                <span class="bg-maroon/30 px-4 py-1 rounded-full text-sm uppercase tracking-widest">Astrology</span>
+            </p>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="bg-maroon sticky top-0 z-50 shadow-md">
+        <div class="max-w-6xl mx-auto px-4 flex justify-center py-4">
+            <div class="flex flex-wrap justify-center gap-6 text-white font-medium text-sm md:text-base">
+                <a href="#about" class="hover:text-yellow-300 transition-colors">परिचय</a>
+                <a href="#services" class="hover:text-yellow-300 transition-colors">सेवाएं</a>
+                <a href="#shop" class="hover:text-yellow-300 transition-colors">स्टोर</a>
+                <a href="#contact" class="hover:text-yellow-300 transition-colors">संपर्क</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow max-w-6xl mx-auto px-4 py-12 w-full space-y-20">
+
+        <!-- ABOUT -->
+        <section id="about" class="scroll-mt-24">
+            <div class="bg-white p-10 md:p-16 rounded-[2rem] shadow-sm border-t-8 border-saffron text-center">
+                <h2 class="text-2xl font-bold text-maroon mb-6 font-hindi">जय श्री राम</h2>
+                <p class="text-xl md:text-2xl text-gray-700 font-hindi leading-relaxed max-w-4xl mx-auto italic">
+                    "नमस्ते, मैं <span class="font-bold text-saffron font-hindi">आचार्य अभिषेक तिवारी</span> हूँ। मैं अपनी आध्यात्मिक शक्तियों और वैदिक ज्योतिष के प्राचीन ज्ञान के माध्यम से आपके जीवन की जटिल समस्याओं का समाधान करने के लिए समर्पित हूँ।"
+                </p>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section id="services" class="scroll-mt-24">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-maroon font-hindi">परामर्श एवं समाधान</h2>
+                <div class="w-20 h-1 bg-saffron mx-auto mt-2 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow-md hover:shadow-2xl transition-all border border-orange-50 text-center flex flex-col">
+                    <div class="text-5xl mb-6">🔮</div>
+                    <h3 class="text-xl font-bold font-hindi mb-2 text-gray-800">कुंडली विश्लेषण</h3>
+                    <p class="text-3xl font-bold text-saffron mb-6">₹199</p>
+                    <a class="mt-auto block py-3 bg-saffron hover:bg-orange-600 text-white rounded-2xl font-bold shadow-lg transition-transform active:scale-95" href="upi://pay?pa=7781063289@ybl&pn=Kundli%20Consultation&am=199&cu=INR">परामर्श लें</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-md hover:shadow-2xl transition-all border border-orange-50 text-center flex flex-col">
+                    <div class="text-5xl mb-6">💑</div>
+                    <h3 class="text-xl font-bold font-hindi mb-2 text-gray-800">विवाह परामर्श</h3>
+                    <p class="text-3xl font-bold text-saffron mb-6">₹299</p>
+                    <a class="mt-auto block py-3 bg-saffron hover:bg-orange-600 text-white rounded-2xl font-bold shadow-lg transition-transform active:scale-95" href="upi://pay?pa=7781063289@ybl&pn=Marriage%20Consultation&am=299&cu=INR">बुकिंग करें</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-md hover:shadow-2xl transition-all border border-orange-50 text-center flex flex-col">
+                    <div class="text-5xl mb-6">🪐</div>
+                    <h3 class="text-xl font-bold font-hindi mb-2 text-gray-800">ग्रह दोष निवारण</h3>
+                    <p class="text-3xl font-bold text-saffron mb-6">₹199</p>
+                    <a class="mt-auto block py-3 bg-saffron hover:bg-orange-600 text-white rounded-2xl font-bold shadow-lg transition-transform active:scale-95" href="upi://pay?pa=7781063289@ybl&pn=Graha%20Dosh&am=199&cu=INR">अभी जानें</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-md hover:shadow-2xl transition-all border border-orange-50 text-center flex flex-col">
+                    <div class="text-5xl mb-6">🛕</div>
+                    <h3 class="text-xl font-bold font-hindi mb-2 text-gray-800">विशेष अनुष्ठान</h3>
+                    <p class="text-lg font-bold text-gray-500 mb-6 font-hindi italic">श्रद्धा अनुसार दान</p>
+                    <a class="mt-auto block py-3 bg-green-600 hover:bg-green-700 text-white rounded-2xl font-bold shadow-lg transition-transform active:scale-95" href="https://wa.me/917781063289?text=प्रणाम आचार्य जी, मुझे पूजा अनुष्ठान के बारे में जानना है।">संपर्क करें</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- STORE -->
+        <section id="shop" class="scroll-mt-24">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-maroon font-hindi">आध्यात्मिक स्टोर</h2>
+                <div class="w-20 h-1 bg-saffron mx-auto mt-2 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-[2.5rem] shadow-lg overflow-hidden flex flex-col border border-gray-100">
+                    <img src="https://images.unsplash.com/photo-1605806616949-1e87b487bc2a?w=600" class="w-full h-72 object-cover">
+                    <div class="p-8 text-center flex-grow flex flex-col justify-between">
+                        <h3 class="text-2xl font-bold font-hindi text-gray-800">सिद्ध रुद्राक्ष माला</h3>
+                        <p class="text-gray-500 font-hindi mt-2 mb-6">मुख के आधार पर मूल्य अलग-अलग</p>
+                        <a class="inline-flex items-center justify-center gap-3 w-full py-4 bg-green-600 hover:bg-green-700 text-white rounded-2xl font-bold shadow-md transition-all" href="https://wa.me/917781063289?text=आचार्य जी, रुद्राक्ष माला की कीमत बताएं।">
+                            <i class="fa-brands fa-whatsapp text-xl"></i> मूल्य पूछें
+                        </a>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white rounded-[2.5rem] shadow-lg overflow-hidden flex flex-col border border-gray-100">
+                    <img src="https://images.unsplash.com/photo-1596568359553-b3c922572b1d?w=600" class="w-full h-72 object-cover">
+                    <div class="p-8 text-center flex-grow flex flex-col justify-between">
+                        <h3 class="text-2xl font-bold font-hindi text-gray-800">राशि रत्न</h3>
+                        <p class="text-gray-500 font-hindi mt-2 mb-6">लैब प्रमाणित ओरिजिनल स्टोन</p>
+                        <a class="inline-flex items-center justify-center gap-3 w-full py-4 bg-green-600 hover:bg-green-700 text-white rounded-2xl font-bold shadow-md transition-all" href="https://wa.me/917781063289?text=आचार्य जी, रत्नों की कीमत बताएं।">
+                            <i class="fa-brands fa-whatsapp text-xl"></i> मूल्य पूछें
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="scroll-mt-24 pb-16">
+            <div class="bg-maroon p-12 md:p-20 rounded-[3rem] text-center text-white relative overflow-hidden shadow-2xl">
+                <div class="absolute inset-0 opacity-10 hero-pattern pointer-events-none"></div>
+                <div class="relative z-10">
+                    <h2 class="text-3xl md:text-5xl font-bold mb-6 font-hindi text-white">किसी भी समस्या के लिए संपर्क करें</h2>
+                    <p class="text-xl mb-10 font-hindi opacity-90">आचार्य जी स्वयं आपसे WhatsApp पर बात करेंगे।</p>
+                    <a class="inline-flex items-center gap-4 px-12 py-5 bg-green-500 hover:bg-green-600 text-white rounded-3xl font-bold text-2xl shadow-xl transition-transform hover:scale-105 active:scale-95" href="https://wa.me/917781063289">
+                        <i class="fa-brands fa-whatsapp text-3xl"></i> WhatsApp अभी चैट करें
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-maroon text-white/60 text-center py-12 border-t border-white/5">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-xl font-bold text-white mb-2 font-hindi">आचार्य अभिषेक तिवारी</h3>
+            <p class="font-hindi text-sm mb-6">वैदिक ज्योतिष एवं कर्मकांड विशेषज्ञ</p>
+            <div class="flex justify-center gap-6 mb-8">
+                <a href="#" class="hover:text-saffron transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-saffron transition-colors"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="text-xs">© 2026 सर्वाधिकार सुरक्षित।</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+```
+              
