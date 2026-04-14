@@ -1,0 +1,2 @@
+# achry
+Astrology, Hindu Dharma , 
